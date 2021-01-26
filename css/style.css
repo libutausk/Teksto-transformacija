@@ -1,0 +1,47 @@
+	   body {
+            background-color: lightgrey;
+        }
+        div {
+            height: 30vw;
+            position: relative;
+            animation: scale 2s ease-in-out infinite alternate;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h1 {
+            text-align: center;
+            color: #ffc107;
+            font-family: "Arial Black", Gadget, sans-serif;
+            text-shadow: 0px 0px 0 rgb(238, 176, 0),
+                1px 1px 0 rgb(222, 160, 0),
+                2px 2px 0 rgb(205, 143, 0),
+                3px 3px 0 rgb(188, 126, 0),
+                4px 4px 0 rgb(171, 109, 0);
+            position: absolute;
+            margin-left: -2%;
+        }
+        h2 {
+            text-align: center;
+            font-size: 69px;
+            color: #07a8ff;
+            font-family: "Arial Black", Gadget, sans-serif;
+            text-shadow: 0px 0px 0 rgb(2, 163, 250),
+                1px 1px 0 rgb(-3, 158, 245),
+                2px 2px 0 rgb(-8, 153, 240),
+                3px 3px 0 rgb(-13, 148, 235),
+                4px 4px 0 rgb(-18, 143, 230);
+            position: absolute;
+            margin-right: -2%;
+            transform: rotate(30deg);
+
+        }
+        @keyframes scale {
+            0% {
+                transform: scale(0.2);
+            }
+
+            100% {
+                transform: scale(1.5);
+            }
+        }
